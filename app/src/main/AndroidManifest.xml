@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.LANG.LANG">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/pandi2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemegiris">
+        <activity android:name=".Game.OyunSecimActivity"></activity>
+        <activity android:name=".Game.Game2Activity" />
+        <activity android:name=".Game.GameMainActivity" />
+        <activity android:name=".quiz.QuizSecimActivity" />
+        <activity android:name=".quiz.QuizActivity" />
+        <activity android:name=".uye.UyesecimActivity" />
+        <activity android:name=".ogren.KelimeCumle" />
+        <activity
+            android:name=".ogren.Kelimebolum"
+            android:theme="@style/AppThemegiris2" />
+        <activity android:name=".ogren.KelimeTemel" />
+        <activity android:name=".ogren.KelimeHayvanlar" />
+        <activity android:name=".ogren.KelimeRenk" />
+        <activity android:name=".uye.UyeGirisActivity" />
+        <activity android:name=".uye.UyeOlActivity" />
+        <activity
+            android:name=".ogren.KelimeDilsecActivity"
+            android:theme="@style/AppThemegiris2" />
+        <activity android:name=".uye.giris">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ogren.KelimeYiyecek" />
+        <activity android:name=".sozluk.SozlukDilActivity" />
+        <activity android:name=".sozluk.SozlukKelimeActivity" />
+        <activity android:name=".sozluk.SozlukKelimeEkleActivity" />
+    </application>
+
+</manifest>

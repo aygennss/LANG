@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uye.UyesecimActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_border"
+        android:orientation="vertical">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="12dp"
+            android:elevation="5dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_margin="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_border"
+
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/web_hi_res_512"
+                    android:layout_marginTop="10dp"></ImageView>
+
+                <TextView
+                    android:id="@+id/txtusername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp"
+                    android:textColor="#ff54"
+                    android:textStyle="bold"
+                    android:text="nama user"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </GridLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:rowCount="8"
+        android:columnCount="2"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:columnOrderPreserved="false">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="12dp"
+        android:elevation="12dp"
+        android:layout_marginLeft="15dp"
+
+        android:layout_margin="20dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#fef140">
+            <ImageView
+                android:id="@+id/franceimg"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/indirr"/>
+            <TextView
+                android:id="@+id/ogren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Öğren"
+                android:textAlignment="center"
+                android:textSize="28dp"
+                android:textColor="#000080"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="12dp"
+        android:elevation="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_margin="20dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fedf22"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/germanimg"
+                android:layout_width="85dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/indir"/>
+            <TextView
+                android:id="@+id/testet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Et"
+
+                android:textSize="28dp"
+                android:textColor="#000080"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </GridLayout>
+
+
+
+
+
+
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:rowCount="8"
+            android:columnCount="2"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:columnOrderPreserved="false">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="12dp"
+            android:elevation="5dp"
+            android:layout_marginLeft="100dp"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#f8b701"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/minigame"
+                    android:layout_width="85dp"
+                    android:layout_height="40dp"
+
+                    android:src="@mipmap/indir54"/>
+                <TextView
+                    android:id="@+id/minigamee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mini Oyunlar"
+
+                    android:textSize="28dp"
+                    android:textColor="#000080"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        </GridLayout>
+
+
+
+
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="170dp"
+                app:cardCornerRadius="12dp"
+                android:elevation="5dp"
+                android:layout_marginLeft="20dp"
+
+                android:layout_margin="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_border"
+
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ViewFlipper
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:id="@+id/v_flipper"></ViewFlipper>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

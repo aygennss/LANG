@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uye.UyesecimActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_border"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="154dp"
+            android:layout_height="254dp"
+            android:src="@drawable/web_hi_res_512"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="125dp"
+            />
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="LANG"
+            android:textColor="#ff54"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="125dp"
+            android:layout_centerHorizontal="true"
+
+
+            android:textSize="28dp"
+            android:textStyle="bold"
+
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="438dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:columnCount="2"
+
+            android:columnOrderPreserved="false"
+            android:rowCount="8">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="54dp"
+                android:elevation="12dp"
+
+                app:cardCornerRadius="12dp"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ff54"
+                    android:gravity="center"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/game1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Düşen\nKelimeler"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="28dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="54dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="12dp"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ff54"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/game2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+
+                        android:text="Kelime\nEşleştirme"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="28dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

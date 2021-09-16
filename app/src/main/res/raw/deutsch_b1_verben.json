@@ -1,0 +1,170 @@
+{
+	"list": [
+		{
+			"text_eng": "primary school",
+			"text_tr": "ilkokul"
+		},
+		{
+			"text_eng": "teacher",
+			"text_tr": "ögretmen"
+		},
+		{
+			"text_eng": "student",
+			"text_tr": "öğreni"
+		},
+		{
+			"text_eng": "holidays",
+			"text_tr": "tatil "
+		},
+		{
+			"text_eng": "class",
+			"text_tr": "sınıf"
+		},
+
+		{
+			"text_eng": "group",
+			"text_tr": "grup"
+		},
+		{
+			"text_eng": "exercise book",
+			"text_tr": "calısma kitabı"
+		},
+		{
+			"text_eng": "quiet",
+			"text_tr": "sessizlik"
+		},
+		{
+			"text_eng": "(to) answer",
+			"text_tr": "cevap"
+		},
+
+		{
+			"text_eng": "state school",
+			"text_tr": "devlet okulu"
+		},
+		{
+			"text_eng": "private school",
+			"text_tr": "özel okul"
+		},
+		{
+			"text_eng": "school bus",
+			"text_tr": "okul otobüsü"
+		},
+		{
+			"text_eng": "trick",
+			"text_tr": "hile"
+		},
+		{
+			"text_eng": "motivated",
+			"text_tr": "motivasyon"
+		},
+		{
+			"text_eng": "ball",
+			"text_tr": "top"
+		},
+		{
+			"text_eng": "Monday",
+			"text_tr": "Pazartesi"
+		},
+		{
+			"text_eng": "Tuesday",
+			"text_tr": "salı"
+		},
+		{
+			"text_eng": "Wednesday",
+			"text_tr": "çarşamba"
+		},
+		{
+			"text_eng": "Thursday",
+			"text_tr": "perşembe"
+		},
+		{
+			"text_eng": "Friday",
+			"text_tr": "cuma"
+		},
+		{
+			"text_eng": "Saturday",
+			"text_tr": "cumartesi"
+		},
+		{
+			"text_eng": "Sunday",
+			"text_tr": "pazar"
+		},
+
+		{
+			"text_eng": "valley",
+			"text_tr": "kasaba"
+		},
+		{
+			"text_eng": "farm",
+			"text_tr": "çiftlik"
+		},
+		{
+			"text_eng": "field",
+			"text_tr": "tohum"
+		},
+
+		{
+			"text_eng": "forest",
+			"text_tr": "orman"
+		},
+
+		{
+			"text_eng": "tropics",
+			"text_tr": "zona tropical"
+		},
+
+		{
+			"text_eng": "parasite",
+			"text_tr": "parazit"
+		},
+		{
+			"text_eng": "hospital",
+			"text_tr": "hastane"
+		},
+
+		{
+			"text_eng": "factory",
+			"text_tr": "fabrika"
+		},
+
+		{
+			"text_eng": "emergency",
+			"text_tr": "acil"
+		},
+
+		{
+			"text_eng": "ambulance",
+			"text_tr": "ambulans"
+		},
+
+		{
+			"text_eng": "fire",
+			"text_tr": "ateş"
+		},
+		{
+			"text_eng": "firefighter",
+			"text_tr": "bombero"
+		},
+		{
+			"text_eng": "dangerous",
+			"text_tr": "tehlike"
+		},
+
+		{
+			"text_eng": "ocean",
+			"text_tr": "okyanus"
+		},
+		{
+			"text_eng": "sea",
+			"text_tr": "deniz"
+		},
+		{
+			"text_eng": "wave",
+			"text_tr": "dalga"
+		}
+
+
+	]
+
+}
